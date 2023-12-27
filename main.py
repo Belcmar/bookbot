@@ -1,4 +1,6 @@
-with open("books.py") as file:
+with open("books.txt","r") as readfile:
+    a = readfile.readlines()
+    print(a)
     
     
 
