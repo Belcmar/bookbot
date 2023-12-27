@@ -1,1 +1,1 @@
-print("hello world")
+with open("books", "w") as file:
