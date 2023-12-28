@@ -3,3 +3,5 @@ with open("book.txt",'r') as file:
     print(var)
     file.close()
     pass 
+
+    print("word count: ", len(var))
