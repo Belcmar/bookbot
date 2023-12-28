@@ -17,4 +17,4 @@ with open("book.txt",'r') as file:
 
         char_dict[char] += 1
 
-    print(char_dict)
+    print(list(char_dict.items()))
