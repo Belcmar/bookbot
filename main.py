@@ -4,4 +4,5 @@ with open("book.txt",'r') as file:
     file.close()
     pass 
 
+    words = var.split()
     print("word count: ", len(var))
